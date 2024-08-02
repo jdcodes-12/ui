@@ -1,10 +1,10 @@
 import './scss/styles.scss'
-import * as bootstrap from 'bootstrap'
+import AlertCard from './components/cards/alert-card.component';
 
 export default function App() {
   return (
-    <>
-      <button class='btn btn-primary'>Load Bootstrap</button>
-    </>
+    <main>
+     <AlertCard /> 
+    </main>
   )
 }
