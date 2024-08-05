@@ -1,2 +1,4 @@
-.custom-styles {
+/* Width & Height Utilities */
+.full-height {
+  height: 100vh;
 }
