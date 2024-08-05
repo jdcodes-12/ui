@@ -2,5 +2,5 @@
   "editor.wordWrap": "on",
   "editor.wordrapColumn": 120,
   "editor.rules": [80, 120],
-  "editor.foratOnSave: false
+  "editor.foratOnSave": false
 }
