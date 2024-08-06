@@ -1,7 +1,13 @@
-import { Button } from 'reactstrap';
+import Sidebar from '../../components/nav/sidebar.component';
+import { FUNDAMENTALS_SIDEBAR } from '../../../config/sidebars/fundamentals-sidebar.config';
 
 export default function Fundamentals() {
   return (
-    <Button onClick={() => alert('You clicked  me!')}>Test Button</Button>
+    <div className='d-flex border'>
+      <Sidebar contents={FUNDAMENTALS_SIDEBAR} />
+      <div className='col-10'>
+        <h2>Content</h2>
+      </div>
+    </div>
   );
 }
